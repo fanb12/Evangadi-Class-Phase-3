@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+img {
+	width: 100%; /*replaced min-width*/
+}
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+/* common style */
+.container {
+	width: 492px;
+	margin: 0 auto;
+}
+.blue {
+	background-color: #085070;
+}
+
+/* header start */
+header {
+	text-align: center;
+	height: 85px;
+	color: white;
+	padding-top: 20px;
+}
+.header-title {
+	font-size: 35px;
+}
+/* header end */
+
+/* banner start */
+.banner-img {
+	margin-bottom: 45px;
+}
+.banner-img img {
+	width: 100%;
+}
+/* banner end */
+
+/* 3 puppy start*/
+.miss {
+	display: none;
+}
+.puppy-2 {
+	margin-top: 73px;
+	margin-bottom: 73px;
+}
+/* 3 puppy end*/
+
+/* more text start */
+.more {
+	margin-bottom: 64px;
+}
+.more-text {
+	text-align: center;
+	font-size: 40px;
+}
+/* more text end */
+
+/* 2 puppy start */
+.puppy-4 {
+	margin-top: 65px;
+	margin-bottom: 90px;
+}
+/* 2 puppy end */
+
+/* footer start */
+footer {
+	text-align: center;
+	padding-bottom: 60px;
+	padding-top: 60px;
+	color: white;
+}
+.dev {
+	font-size: 40px;
+}
+/* footer end */
+
+@media (min-width: 768px) {
+	/* common */
+	.container {
+		width: 700px; /*960px repalced*/
+		margin: 0 auto;
+	}
+	.flex {
+		display: flex;
+		justify-content: space-between;
+	}
+	.puppy-2,
+	.puppy-4,
+	.more {
+		margin: 0;
+	}
+	/* banner start */
+	.banner-img {
+		margin-bottom: 83px;
+	}
+	/* banner end */
+
+	/* 3 puppy strat */
+	.miss {
+		margin: 0 2%; /* new added*/
+		font-size: 28px; /*44px replaced*/
+		display: block;
+		background-color: #f04d65;
+	}
+	.miss h1 {
+		text-align: center;
+		font-weight: 300;
+		margin-top: 25px; /*50px replaced*/
+		margin-bottom: 30px; /*50px replaced*/
+	}
+	.puppy-1,
+	.puppy-2,
+	.miss {
+		min-width: 32%; /*310px replaced*/
+		/* height: 310px; */ /*commented*/
+	}
+	/* 3 puppy end */
+
+	/* more text start*/
+	.more {
+		margin: 63px auto 73px auto;
+	}
+	/* more text end*/
+
+	/* ************ new added */
+	.puppy-4,
+	.puppy-3 {
+		width: 46%;
+	}
+	/* **********  */
+
+	/* footer start */
+	footer {
+		padding-bottom: 120px;
+		padding-top: 95px;
+		margin-top: 74px;
+	}
+	/* footer end */
+}
