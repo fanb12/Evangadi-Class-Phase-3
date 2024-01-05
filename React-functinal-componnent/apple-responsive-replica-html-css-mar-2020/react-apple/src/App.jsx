@@ -1,4 +1,4 @@
-import { useState } from 'react' 
+import { useState } from 'react'  
 import Header from "./componnent/Header"
 import Section1 from "./componnent/Section1"
 import Section2 from "./componnent/Section2"
