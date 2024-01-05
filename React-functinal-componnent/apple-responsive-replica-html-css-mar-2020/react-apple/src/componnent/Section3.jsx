@@ -2,7 +2,7 @@ import React from 'react'
 
 function Section3() {
   return (
-    <>9
+    <>
      <section className="third-hightlight-wrapper">
 		<div className="container">
 			<div className="title-wraper bold">
