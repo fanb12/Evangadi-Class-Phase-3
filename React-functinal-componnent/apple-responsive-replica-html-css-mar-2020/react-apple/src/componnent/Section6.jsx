@@ -2,7 +2,7 @@ import React from 'react'
 import arcade from "../images/icons/arcade.png"
 
 function Section6() {
-  return (
+  return ( 
     <>
      <section className="sixth-heghlight-wrapper">
 		<div className="container-fluid">
