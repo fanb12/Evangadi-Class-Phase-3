@@ -4,7 +4,7 @@ import wacths from "../images/icons/watch-series5-logo.png"
 import banker from "../images/home/banker.png" 
 
 function Section5() {
-  return (
+  return ( 
     <>
 <section className="fifth-heghlight-wrapper">
 		<div className="container-fluid">
